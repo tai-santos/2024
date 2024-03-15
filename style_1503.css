@@ -4,24 +4,16 @@
     --cor-de-fundo: #1E1E1E;
     --verde:#6FFF57;
     --branco:#FFFFFF;
-    --botao-ativo:#3A375E;
-    --botao-inativo: rgba(249, 253, 253, 0,5);
-    --texto-fundo: rgba(45, 198, 240, 0,3);
-
-
-
-
-
-
-    
-
+    --botao-ativo:#de081a;
+    --botao-inativo: rgba(58, 55, 94, 0,5);
+    --texto-fundo: rgba(58, 55, 94, 0,3);
 }
 body{
 background-color: rgba(232, 182, 226, 0.866);
 font-family: 'lobster', sans-serif;
 }
 h2 {
-color: rgb(14, 14, 15);
+color: rgb(8, 8, 207);
 } 
 .conteudo-principal {
     display: flex;
