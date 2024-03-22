@@ -5,19 +5,14 @@
     --verde:#6FFF57;
     --branco:#FFFFFF;
     --botao-ativo:#3A375E;
-    --botao-inativo: rgba(249, 253, 253, 0,5);
-    --texto-fundo: rgba(45, 198, 240, 0,3);
-
-
-
-
-
+    --botao-inativo: rgba(12, 112, 112, 0.5);
+    --texto-fundo: rgba(45, 198, 240, 0.3);
 
     
 
 }
 body{
-background-color: rgba(232, 182, 226, 0.866);
+background-color: rgba(103, 200, 233, 0.866);
 font-family: 'lobster', sans-serif;
 }
 h2 {
@@ -44,7 +39,7 @@ font-size: 32px;
     display: flex;
     justify-content: center;
     padding: 1em;
-    font-size: 18px;
+    font-size: 24px;
     align-items: center;
     width: 100%;
 }
