@@ -1,65 +1,87 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-:root{ 
-    --cor-de-fundo: #1E1E1E;
-    --verde:#6FFF57;
-    --branco:#FFFFFF;
-    --botao-ativo:#3A375E;
-    --botao-inativo: rgba(12, 112, 112, 0.5);
-    --texto-fundo: rgba(45, 198, 240, 0.3);
 
-    
+:root { 
+  /*--cor-de-fundo: #297030;*/
+    --cor-de-fundo: #0d0d0d;
+    --verde: #e5e3ec;
+    --branco: #f9f8f8;
+    --botao-ativo: #e7f2f2;
+    --botao-inativo: rgba(177, 174, 174, 0.5);
+    --texto-fundo: rgba(248, 249, 251, 0.993);
+}
 
-}
-body{
-background-color: rgba(103, 200, 233, 0.866);
-font-family: 'lobster', sans-serif;
-}
-h2 {
-color: rgb(14, 14, 15);
-} 
-.conteudo-principal {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-}
-.titulo-principal {
-text-align: left;
-width: 100%;
-font-size: 32px;
-}
-.botao{
-    font-family: 'lobster',sans-serif;
-    background-color:var(--botao-inativo) ;
+
+
+
+
+
+body {
+
+    background-color: var(--cor-de-fundo);
     color: var(--branco);
-    display: flex;
-    justify-content: center;
-    padding: 1em;
-    font-size: 24px;
-    align-items: center;
-    width: 100%;
+    font-family: 'Lobster' , sans-serif;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .botao {
-    display: block;
+ font-family: "Lobster", sans-serif;
+ background-color: var(--botao-inativo);
+ color: var(--branco);
+ display: flex;
+ justify-content: center;
+ padding: 1em;
+ font-size: 18px;
+ align-items: center;
+ width: 100%;
 }
+.titulo-principal {
+text-align: left;
+width:100%;
+font-size: 32px;
+}
+
+.botoes {
+  display: block;
+}
+
 @media screen and (min-width: 768px) {
-    
-    }
- .botao:last-child {
-    border-radius: 40px 0 0 0;
- }     
-    
+  .botoes {
+    display: flex;
+  }
+}
+
+.botao:first-child {
+   border-radius: 40px 0 0 0;
+}
+
 .botao:last-child {
-    border-radius: 0 40px 0 0;
+      border-radius: 0 40px 0 0;
 }
 
-.botao.ativp{
-    background-color: var(--botao-ativo);
-    border-bottom: 10px solid var(--verde);
-
+.botao.ativo {
+background-color: var(--botao-ativo);
+border-bottom: 10px solid var(--verde);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
